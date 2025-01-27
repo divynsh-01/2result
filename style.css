@@ -1,0 +1,23 @@
+.container img{
+    width: 40vw;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://t4.ftcdn.net/jpg/03/86/36/03/360_F_386360318_SZqWdwAWs1d3KrbpOPB6zPx5cHVc4LWN.jpg");
+    background-size: cover; /* Makes the image cover the full container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Ensures the image is centered */
+}
+
